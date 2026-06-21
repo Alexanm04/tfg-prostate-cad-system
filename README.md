@@ -23,7 +23,6 @@ Se recomienda utilizar un entorno virtual (conda). Las librerías principales re
 * `trident` (para lectura WSI y segmentación HEST)
 * `scikit-learn`, `pandas`, `numpy`, `Pillow`, `joblib`
 
----
 
 ## 2. Configuración y ejecución del Backend
 
@@ -36,7 +35,6 @@ Abra el archivo `extrae_caracteristicas_wsi.py`, situado en `/backend/sistema_ca
 1. Ejecute el script de segmentación y extracción de características (`extrae_caracteristicas_wsi.py`), situado en `/backend/sistema_cad`. Este genera los archivos `.npy` con los embeddings de cada parche.
 2. Ejecute el script de inferencia (`predice_wsi.py`), también situado en `/backend/sistema_cad`. Este utiliza los embeddings del paso 1 y genera el archivo `.csv` con las coordenadas y probabilidades de predicción que posteriormente será empleado por la extensión de QuPath.
 
----
 
 ## 3. Instrucciones de uso de la extensión QuPath
 
